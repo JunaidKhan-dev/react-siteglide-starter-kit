@@ -1,0 +1,57 @@
+---
+name: category
+resource: Customization
+resource_owner: anyone
+configuration:
+  properties:
+    module_detail_template:
+      name: module_detail_template
+      value: 
+      property_options:
+        virtual: true
+    module_detail_default_layout:
+      name: module_detail_default_layout
+      value: default
+      property_options:
+        virtual: true
+    name:
+      name: name
+      type: string
+    slug:
+      name: slug
+      type: string
+    weighting:
+      name: weighting
+      type: integer
+    release_date:
+      name: release_date
+      type: integer
+    expiry_date:
+      name: expiry_date
+      type: integer
+    enabled:
+      name: enabled
+      type: boolean
+    category_array:
+      name: category_array
+      type: array
+    meta_title:
+      name: meta_title
+      type: string
+    meta_desc:
+      name: meta_desc
+      type: string
+    og_title:
+      name: og_title
+      type: string
+    og_desc:
+      name: og_desc
+      type: string
+    og_type:
+      name: og_type
+      type: string
+    twitter_type:
+      name: twitter_type
+      type: string
+---{%- capture form_layout -%}layouts/webapps/category/form/{{_layout}}{%- endcapture -%}
+{%- include form_layout -%}

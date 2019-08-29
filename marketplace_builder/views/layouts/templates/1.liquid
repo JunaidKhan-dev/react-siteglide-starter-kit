@@ -1,0 +1,21 @@
+---
+metadata:
+  name: main layout
+  type: page
+  file_type: template
+  is_default: true
+  use_design_system: true
+  id: 1
+  last_edit: 1565609288201
+
+---
+<head>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+{% include 'modules/siteglide_system/siteglide_head' -%}
+<link rel="stylesheet" href="{{ 'css/custom.css' | asset_url }}">
+</head>
+<body class=""> 
+{{ content_for_layout }}
+{% include 'modules/siteglide_system/siteglide_foot' -%}
+  <script src="{{ 'js/main.js' | asset_url }}"></script> 
+</body> 

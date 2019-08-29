@@ -1,0 +1,29 @@
+<<<<<<< HEAD
+{% assign pageArray = pages | split: ',' %}
+{%- for page in pageArray -%}
+    {% assign curpage = 'vue/pages/' | append: page %}
+    var {{page | capitalize}} = {props: ['message'], template: `{% include curpage -%}` }
+{%- endfor %}
+var routes = [
+    {%- for page in pageArray -%}
+      { path: '/{{page}}', component: {{page | capitalize}} } {%- if forloop.last != true -%},{%endif-%}
+    {%- endfor %}
+]
+var {{routerName | default: 'router'}} = new VueRouter({
+    routes
+    })
+=======
+{% assign pageArray = pages | split: ',' %}
+{%- for page in pageArray -%}
+    {% assign curpage = 'vue/pages/' | append: page %}
+    var {{page | capitalize}} = {props: ['message'], template: `{% include curpage -%}` }
+{%- endfor %}
+var routes = [
+    {%- for page in pageArray -%}
+      { path: '/{{page}}', component: {{page | capitalize}} } {%- if forloop.last != true -%},{%endif-%}
+    {%- endfor %}
+]
+var {{routerName | default: 'router'}} = new VueRouter({
+    routes
+    })
+>>>>>>> master

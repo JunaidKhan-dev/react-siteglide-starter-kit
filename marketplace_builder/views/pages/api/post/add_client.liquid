@@ -1,0 +1,9 @@
+---
+slug: api/add-client
+method: post
+layout_name: ''
+--- 
+{{params | json}}
+
+{% execute_query "post_add_client", email: params.email, name: params.name, city: params.city  %}
+

@@ -1,0 +1,98 @@
+{
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.colorTheme": "Palenight Italic",
+  "window.zoomLevel": 2,
+  "editor.wordWrap": "on",
+  "editor.autoIndent": false,
+  "editor.detectIndentation": false,
+  "editor.matchBrackets": false,
+  "editor.tabSize": 2,
+  "editor.insertSpaces": true,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "liveServer.settings.donotVerifyTags": true,
+  "editor.renderWhitespace": "boundary",
+  "search.useReplacePreview": false,
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "vetur.grammar.customBlocks": {
+    "page-query": "graphql",
+    "static-query": "graphql"
+  },
+"emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+},
+ "emojisense.languages": {
+	"plaintext": {
+		"markupCompletionsEnabled": true,
+		"emojiDecoratorsEnabled": true
+	},
+	"abap": true,
+	"bat": true,
+	"bibtex": true,
+	"clojure": true,
+	"coffeescript": true,
+	"c": true,
+	"cpp": true,
+	"csharp": true,
+	"css": true,
+	"diff": true,
+	"dockerfile": true,
+	"fsharp": true,
+	"git-commit": true,
+	"git-rebase": true,
+	"go": true,
+	"groovy": true,
+	"handlebars": true,
+	"html": true,
+	"ini": true,
+	"java": true,
+	"javascript": true,
+	"javascriptreact": true,
+	"json": true,
+	"jsonc": true,
+	"latex": true,
+	"less": true,
+	"lua": true,
+	"makefile": true,
+	"markdown": true,
+	"objective-c": true,
+	"objective-cpp": true,
+	"perl6": true,
+	"php": true,
+	"powershell": true,
+	"jade": true,
+	"python": true,
+	"r": true,
+	"razor": true,
+	"ruby": true,
+	"rust": true,
+	"scss": true,
+	"sass": true,
+	"shaderlab": true,
+	"shellscript": true,
+	"sql": true,
+	"swift": true,
+	"typescript": true,
+	"typescriptreact": true,
+	"tex": true,
+	"vb": true,
+	"xml": true,
+	"xsl": true,
+	"yaml": true
+},
+"liquid.format": true,
+  "liveSassCompile.settings.generateMap": false,
+
+"liveSassCompile.settings.formats":[
+// This is Default.
+{
+    "format": "compact",
+    "extensionName": ".css",
+    "savePath": "/marketplace_builder/assets/css/"
+}
+],
+  "liveSassCompile.settings.includeItems": [
+      "scss/custom.scss"
+  ]
+
+}

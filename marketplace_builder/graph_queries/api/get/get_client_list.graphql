@@ -1,0 +1,8 @@
+{
+  customizations{
+    results{
+      name,
+      properties
+    }
+  }
+}

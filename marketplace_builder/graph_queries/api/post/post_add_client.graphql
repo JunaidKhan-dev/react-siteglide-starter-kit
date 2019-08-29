@@ -1,0 +1,14 @@
+mutation($email:String, $name:String,$city:String){
+  customization_create(
+    customization:{
+      model_schema_name:"form_1"
+      properties:[
+        { name: "email" , value: $email },
+        { name: "name" , value: $name},
+        {name: "form_field_1_1", value: $city}
+      ]
+    }
+  ){
+    name
+  }
+}

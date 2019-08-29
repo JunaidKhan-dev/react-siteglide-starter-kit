@@ -1,0 +1,9 @@
+---
+slug: api/get_client_list
+method: get
+layout_name: ''
+--- 
+
+{% execute_query "get_client_list", result_name: "results" %}
+
+{{results.customizations.results | json}}

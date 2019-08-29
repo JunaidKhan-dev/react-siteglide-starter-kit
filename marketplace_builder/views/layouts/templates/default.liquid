@@ -1,0 +1,17 @@
+---
+metadata:
+  name: Default Page Template
+  type: page
+  file_type: template
+  is_default: true
+  use_design_system: true
+  last_edit: 1565609288201
+---
+<head>
+{% include 'modules/siteglide_system/siteglide_head' -%}
+  
+</head>
+<body>
+{{ content_for_layout }}
+{% include 'modules/siteglide_system/siteglide_foot' -%}
+</body> 
